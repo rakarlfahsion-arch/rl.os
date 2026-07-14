@@ -14,7 +14,7 @@
                     "push":  "prisma db push"
                 },
     "devDependencies":  {
-                            "typescript":  "^5.7.0",
+                            "typescript":  "^7.0.2",
                             "prisma":  "^6.0.0"
                         },
     "main":  "./src/index.ts"
