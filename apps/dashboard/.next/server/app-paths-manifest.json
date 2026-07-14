@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/dashboard/finance/expenses/page": "app/dashboard/finance/expenses/page.js",
+  "/dashboard/finance/cash/page": "app/dashboard/finance/cash/page.js",
+  "/dashboard/finance/page": "app/dashboard/finance/page.js",
+  "/dashboard/finance/salary/page": "app/dashboard/finance/salary/page.js",
+  "/dashboard/finance/reports/page": "app/dashboard/finance/reports/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/owner/page": "app/dashboard/owner/page.js",
+  "/dashboard/video-studio/caption/page": "app/dashboard/video-studio/caption/page.js",
+  "/dashboard/video-studio/keywords/page": "app/dashboard/video-studio/keywords/page.js",
+  "/dashboard/video-studio/page": "app/dashboard/video-studio/page.js",
+  "/dashboard/video-studio/hashtag/page": "app/dashboard/video-studio/hashtag/page.js",
+  "/dashboard/video-studio/seo/page": "app/dashboard/video-studio/seo/page.js",
+  "/dashboard/whatsapp/customer/page": "app/dashboard/whatsapp/customer/page.js",
+  "/dashboard/whatsapp/employee/page": "app/dashboard/whatsapp/employee/page.js",
+  "/dashboard/whatsapp/partner/page": "app/dashboard/whatsapp/partner/page.js",
+  "/dashboard/whatsapp/page": "app/dashboard/whatsapp/page.js",
+  "/dashboard/whatsapp/recruitment/page": "app/dashboard/whatsapp/recruitment/page.js"
+}
