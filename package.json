@@ -75,9 +75,12 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": ">=24.17.0 <25",
+      "version": ">=18.0.0",
       "onFail": "warn"
     }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@prisma/client", "@prisma/engines", "prisma", "esbuild", "msgpackr-extract", "protobufjs", "tree-sitter", "workerd", "@parcel/watcher"]
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "catalog:",
