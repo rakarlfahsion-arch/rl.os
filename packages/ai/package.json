@@ -2,7 +2,7 @@
     "version":  "0.1.0",
     "dependencies":  {
                          "zod":  "^4.4.0",
-                         "openai":  "^6.45.0",
+                         "openai":  "^6.46.0",
                          "@composio/openai":  "workspace:*",
                          "@rl/shared":  "workspace:*",
                          "@composio/anthropic":  "workspace:*",
