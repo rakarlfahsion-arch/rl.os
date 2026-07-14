@@ -1,4 +1,4 @@
-﻿{
+{
     "scripts":  {
                     "dev":  "tsdown dev",
                     "build":  "tsdown build"

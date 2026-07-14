@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "@rl/admin",
     "scripts":  {
                     "build":  "next build",
