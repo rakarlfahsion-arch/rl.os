@@ -1,9 +1,16 @@
 import { cn } from "@rl/shared"
-import type { InputHTMLAttributes } from "react"
+import type { ReactNode, ChangeEvent } from "react"
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+interface InputProps {
   label?: string
   error?: string
+  id?: string
+  className?: string
+  type?: string
+  placeholder?: string
+  value?: string | number
+  onChange?: (e: ChangeEvent<HTMLInputElement>) => void
+  children?: ReactNode
 }
 
 export function Input({ className, label, error, id, ...props }: InputProps) {
