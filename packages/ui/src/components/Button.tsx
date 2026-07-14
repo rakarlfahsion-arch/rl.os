@@ -1,10 +1,11 @@
 import { cn } from "@rl/shared"
-import type { ButtonHTMLAttributes } from "react"
+import type { ButtonHTMLAttributes, ReactNode } from "react"
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "outline" | "ghost" | "danger"
   size?: "sm" | "md" | "lg"
   loading?: boolean
+  children?: ReactNode
 }
 
 export function Button({
