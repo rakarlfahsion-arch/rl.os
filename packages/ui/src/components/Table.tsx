@@ -16,7 +16,7 @@ interface TableProps<T> {
   emptyMessage?: string
 }
 
-export function Table<T extends Record<string, unknown>>({
+export function Table<T>({
   columns,
   data,
   onRowClick,
@@ -48,13 +48,13 @@ export function Table<T extends Record<string, unknown>>({
         <tbody>
           {data.map((item, i) => (
             <tr
-              key={(item.id as string) || i}
+                key={((item as Record<string, unknown>).id as string) || i}
               className={cn("border-b border-gray-100 hover:bg-gray-50", onRowClick && "cursor-pointer")}
               onClick={() => onRowClick?.(item)}
             >
               {columns.map((col) => (
                 <td key={col.key} className={cn("px-4 py-3 text-gray-700", col.className)}>
-                  {col.render ? col.render(item) : (item[col.key] as ReactNode) ?? "-"}
+                  {col.render ? col.render(item) : ((item as Record<string, unknown>)[col.key] as ReactNode ?? "-")}
                 </td>
               ))}
             </tr>
