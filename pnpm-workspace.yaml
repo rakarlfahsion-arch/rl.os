@@ -22,8 +22,11 @@ packages:
 allowBuilds:
   '@google/genai': false
   '@parcel/watcher': true
+  '@prisma/client': true
+  '@prisma/engines': true
   esbuild: true
   msgpackr-extract: true
+  prisma: true
   protobufjs: true
   sharp: false
   tree-sitter: true
