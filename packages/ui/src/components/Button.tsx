@@ -1,11 +1,15 @@
 import { cn } from "@rl/shared"
-import type { ButtonHTMLAttributes, ReactNode } from "react"
+import type { ReactNode, MouseEvent } from "react"
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps {
   variant?: "primary" | "secondary" | "outline" | "ghost" | "danger"
   size?: "sm" | "md" | "lg"
   loading?: boolean
+  disabled?: boolean
   children?: ReactNode
+  className?: string
+  type?: "button" | "submit" | "reset"
+  onClick?: (e: MouseEvent<HTMLButtonElement>) => void
 }
 
 export function Button({
