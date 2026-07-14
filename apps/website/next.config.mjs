@@ -3,4 +3,4 @@ const nextConfig = {
   transpilePackages: ["@rl/ui", "@rl/shared"],
 }
 
-module.exports = nextConfig
+export default nextConfig
