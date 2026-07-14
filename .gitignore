@@ -75,3 +75,4 @@ docs/.workflow-data/*
 .playwright-mcp/
 
 .vercel
+.env*
