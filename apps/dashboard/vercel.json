@@ -1,4 +1,5 @@
 {
+  "framework": "nextjs",
   "buildCommand": "cd ../.. && pnpm build --filter=@rl/dashboard",
   "installCommand": "cd ../.. && pnpm install --no-frozen-lockfile"
 }
