@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "@rl/shared"
 import type { ReactNode } from "react"
 import { useEffect } from "react"
