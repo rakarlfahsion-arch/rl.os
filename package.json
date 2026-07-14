@@ -55,7 +55,7 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "lint:fix:packages": "eslint ts/packages --ext .ts,.tsx --fix",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "preinstall": "./ts/scripts/pre-install.sh",
+    "preinstall": "echo skipping preinstall",
     "prepare": "husky",
     "create:provider": "bash ts/scripts/create-provider.sh",
     "create:example": "bash ts/scripts/create-example.sh",
