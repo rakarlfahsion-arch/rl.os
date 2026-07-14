@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd apps/dashboard && npx next build",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "outputDirectory": "apps/dashboard/.next",
+  "framework": "nextjs"
+}
