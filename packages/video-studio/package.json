@@ -1,0 +1,18 @@
+{
+  "name": "@rl/video-studio",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsdown build"
+  },
+  "dependencies": {
+    "@rl/database": "workspace:*",
+    "@rl/shared": "workspace:*",
+    "@rl/ai": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

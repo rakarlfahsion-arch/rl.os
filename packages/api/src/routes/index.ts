@@ -1,0 +1,6 @@
+export { authRouter } from "./auth"
+export { dashboardRouter } from "./dashboard"
+export { productRouter } from "./product"
+export { orderRouter } from "./order"
+export { warehouseRouter } from "./warehouse"
+export { productionRouter } from "./production"

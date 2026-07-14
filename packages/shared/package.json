@@ -1,0 +1,16 @@
+﻿{
+    "version":  "0.1.0",
+    "dependencies":  {
+                         "zod":  "^4.4.0"
+                     },
+    "types":  "./src/index.ts",
+    "type":  "module",
+    "name":  "@rl/shared",
+    "scripts":  {
+                    "build":  "tsdown build"
+                },
+    "devDependencies":  {
+                            "typescript":  "^5.7.0"
+                        },
+    "main":  "./src/index.ts"
+}

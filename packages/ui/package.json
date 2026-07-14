@@ -1,0 +1,23 @@
+﻿{
+    "scripts":  {
+                    "dev":  "tsdown dev",
+                    "build":  "tsdown build"
+                },
+    "peerDependencies":  {
+                             "react":  "^19.0.0",
+                             "react-dom":  "^19.0.0"
+                         },
+    "type":  "module",
+    "types":  "./src/index.ts",
+    "version":  "0.1.0",
+    "name":  "@rl/ui",
+    "main":  "./src/index.ts",
+    "devDependencies":  {
+                            "typescript":  "^5.7.0"
+                        },
+    "dependencies":  {
+                         "react":  "^19.0.0",
+                         "react-dom":  "^19.0.0",
+                         "@rl/shared":  "workspace:*"
+                     }
+}

@@ -1,0 +1,22 @@
+﻿{
+    "name":  "@rl/website",
+    "scripts":  {
+                    "build":  "next build",
+                    "dev":  "next dev",
+                    "start":  "next start"
+                },
+    "devDependencies":  {
+                            "typescript":  "^5.7.0",
+                            "@types/react":  "^19.0.0",
+                            "@types/node":  "^26.1.0"
+                        },
+    "type":  "module",
+    "dependencies":  {
+                         "@rl/shared":  "workspace:*",
+                         "react":  "^19.0.0",
+                         "react-dom":  "^19.0.0",
+                         "next":  "^15.0.0",
+                         "@rl/ui":  "workspace:*"
+                     },
+    "private":  true
+}

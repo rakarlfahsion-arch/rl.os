@@ -1,0 +1,18 @@
+﻿{
+    "version":  "0.1.0",
+    "dependencies":  {
+                         "@rl/api":  "workspace:*",
+                         "zod":  "^4.4.0",
+                         "@rl/shared":  "workspace:*"
+                     },
+    "types":  "./src/index.ts",
+    "type":  "module",
+    "name":  "@rl/tiktok",
+    "scripts":  {
+                    "build":  "tsdown build"
+                },
+    "devDependencies":  {
+                            "typescript":  "^5.7.0"
+                        },
+    "main":  "./src/index.ts"
+}
