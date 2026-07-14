@@ -6,7 +6,7 @@
                     "start":  "next start"
                 },
     "devDependencies":  {
-                            "typescript":  "^5.7.0",
+                            "typescript":  "^7.0.2",
                             "tailwindcss": "^3.4.0",
                             "autoprefixer": "^10.4.0",
                             "postcss": "^8.4.0",

@@ -16,7 +16,7 @@
                     "build":  "tsdown build"
                 },
     "devDependencies":  {
-                            "typescript":  "^5.7.0"
+                            "typescript":  "^7.0.2"
                         },
     "main":  "./src/index.ts"
 }
