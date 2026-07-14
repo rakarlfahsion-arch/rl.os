@@ -1,7 +1,7 @@
 {
     "version":  "0.1.0",
     "dependencies":  {
-                         "zod":  "^4.4.0",
+                         "zod":  "^4.4.3",
                          "@rl/database":  "workspace:*",
                          "@rl/shared":  "workspace:*"
                      },

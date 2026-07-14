@@ -2,7 +2,7 @@
     "version":  "0.1.0",
     "dependencies":  {
                          "@rl/api":  "workspace:*",
-                         "zod":  "^4.4.0",
+                         "zod":  "^4.4.3",
                          "@rl/shared":  "workspace:*"
                      },
     "types":  "./src/index.ts",
