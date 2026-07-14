@@ -107,7 +107,7 @@
     "typescript-eslint": "^8.63.0",
     "vitest": "catalog:",
     "zod": "catalog:",
-    "next": "^15.0.0"
+    "next": "^16.2.10"
   },
   "lint-staged": {
     "ts/packages/**/*.{ts,tsx}": [
