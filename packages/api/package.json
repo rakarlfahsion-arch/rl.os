@@ -4,7 +4,7 @@
                          "@rl/auth":  "workspace:*",
                          "zod":  "^4.4.0",
                          "@rl/database":  "workspace:*",
-                         "hono":  "^4.12.0",
+                         "hono":  "^4.12.31",
                          "@rl/shared":  "workspace:*"
                      },
     "types":  "./src/index.ts",
