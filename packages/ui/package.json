@@ -14,8 +14,8 @@
     "main":  "./src/index.ts",
     "devDependencies":  {
                             "typescript":  "^5.7.0",
-                            "@types/react":  "^19.0.0",
-                            "@types/react-dom":  "^19.0.0"
+                            "@types/react":  "^19.3.0",
+                            "@types/react-dom":  "^19.3.0"
                         },
     "dependencies":  {
                          "@rl/shared":  "workspace:*"
